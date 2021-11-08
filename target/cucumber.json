@@ -1,0 +1,53 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-07T21:43:14.982Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13799000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.runner.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Teste Frame",
+        "description": "",
+        "id": "teste;teste-frame",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat pages.CucumberTestActivity.validateHomePage(CucumberTestActivity.java:16)\r\n\tat steps.app.CucumberTestStep.que_estou_no_aplicativo(CucumberTestStep.java:11)\r\n\tat ✽.que estou no aplicativo(file:///C:/automation-app-test/src/test/resources/feature/CucumberTest.feature:6)\r\n",
+              "duration": 5000000,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "que estou no aplicativo",
+            "match": {
+              "location": "steps.app.CucumberTestStep.que_estou_no_aplicativo()"
+            },
+            "keyword": "Dado "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ct-01"
+          }
+        ]
+      }
+    ],
+    "name": "Teste",
+    "description": "",
+    "id": "teste",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/feature/CucumberTest.feature",
+    "tags": []
+  }
+]
